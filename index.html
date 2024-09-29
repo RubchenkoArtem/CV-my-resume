@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>My Resume</title>
+	 <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/bootstrap.min.css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css">
+	 
+	 <style>
+    
+    html, body {
+  margin:0;border:0;padding:0;
+  font-size:16px;
+  font-family: 'Poppins', sans-serif;
+  overflow-x:hidden;
+  position: relative;
+  vertical-align: baseline;
+ background-color: #7f5a83;
+background-image: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+
+}
+
+ 
+h1 {font-size:40px;}
+h2 {font-size:36px;}
+h3 {font-size:30px;}
+h4 {font-size:24px;}
+h5 {font-size:20px;}
+h6 {font-size:18px;}
+
+h2 {
+  padding-bottom: 14px;
+}
+
+ 
+
+ 
+ 
+
+.tm-title {
+	color: #66CCFF;
+}
+
+.white {
+  color: #fff;
+}
+
+.about,.skills,
+.education,.languages,
+.contact, .experience {
+  padding: 40px;
+  min-height: 330px;
+}
+
+.education, .languages,
+.contact, .experience {
+  margin-top: 30px;
+}
+
+ 
+  
+header {
+  text-align: center;
+  min-height: 400px;
+  overflow: hidden;
+  position: relative;
+  padding-top: 160px;
+  padding-bottom: 140px;
+}
+header img {
+  display: inline-block !important;
+    border: 3px solid white;
+    padding: 5px;
+}
+header h2 {
+  padding-top: 40px;
+}
+    
+         
+         
+         
+         
+         
+/* about section */
+.about {
+  background: #fff;
+  box-shadow: 0px 1px 5px rgba(50,50,50,0.08);
+}
+         
+         
+         
+         
+
+/* skills section */
+.skills {
+  background: #3366CC;
+  color: #f5f5f5;
+}
+.skills .progress {
+  border-radius: 0px;
+  height: 4px;
+}
+.skills .progress .progress-bar-primary {
+  background: #204090;
+}
+.skills strong {
+  display: inline-block;
+  font-weight: normal;
+  padding-bottom: 6px;
+}
+         
+         
+         
+
+/* education section */
+.education {
+  background: #3366CC;
+  color: #f5f5f5;
+}
+.education .education-content {
+  padding-bottom: 14px;
+}
+.education h5 {
+  display: inline-block;
+}
+.education span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+         
+         
+/* languages section */
+.languages {
+  background: #fff; 
+}
+.languages ul {
+  padding: 10px;
+}
+.languages ul li {
+  padding-bottom: 6px;
+}
+
+         
+         
+         
+/* contact section */
+.contact {
+  background: #fff;  
+}
+.contact .fa {
+  padding-right: 6px;
+}
+
+         
+         
+         
+         
+/* experience section */
+.experience {
+  background: #3366CC;
+  color: #f5f5f5;
+}
+ .experience-content {
+  padding-bottom: 14px;
+}
+.experience h5 {
+  display: inline-block;
+}
+.experience span {
+  padding-right: 10px;
+  padding-left: 20px;
+}
+
+         
+         
+         
+         
+         
+         
+/* footer section */
+footer {
+  color: #f9f9f9;
+  text-align: center;
+  padding-top: 140px;
+  padding-bottom: 100px;
+}
+         
+         
+         
+
+/* social icon section */
+.social-icons {
+  padding: 0;
+  margin: 0;
+}
+.social-icons li {
+  display: inline-block;
+  list-style: none;
+}
+.social-icons li a {
+  background: #3366CC;
+  border-radius: 50%;
+  color: #fff;
+  text-decoration: none;
+  font-size: 18px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all 0.4s ease-in;
+  position: relative;
+  bottom: 10px;
+  top: 10px;
+}
+.social-icons li a:hover {
+  background: #202020;
+  color: #fff;
+}
+
+@media ( max-width: 980px ) {
+  .skills {
+    margin-top: 30px;
+  }
+}
+
+@media ( max-width: 360px ) {
+  header h1 {
+    font-size: 30px;
+  }
+  .about h2 {
+    font-size: 24px;
+  }
+  .education h4,
+  .experience h4 {
+    font-size: 20px;
+  }
+}
+    
+    
+    </style>
+</head>
+<body>
+
+ 
+<!-- header section -->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<img src="./images/123.png" class="img-responsive img-circle">
+				 
+				<h1 class="white">Hi, I am Beginner</h1>
+				<h1 class="white">Frontend-Developer</h1>
+			</div>
+		</div>
+	</div>
+</header>
+
+<!-- about and skills section -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-6 col-sm-12">
+			<div class="about">
+				<h3 class="accent">Artem Rubchenko</h3>
+				<h2>Beginner Frontend-Developer</h2>
+				 <p>
+				     I am, Beginner Frontend Developer with no work experience, but with a great desire to learn and discover a new stage in life.  
+				 </p>
+			</div>
+		</div>
+		<div class="col-md-6">
+			<div class="skills">
+				<h2 class="white">Our Skills</h2>
+				<strong>JavaScript</strong>
+				<span class="pull-right">50%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div>
+					</div>
+				<strong>CSS</strong>
+				<span class="pull-right">85%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="width: 85%;"></div>
+					</div>
+				<strong>HTML</strong>
+				<span class="pull-right">95%</span>
+					<div class="progress">
+						<div class="progress-bar progress-bar-primary" role="progressbar" 
+                        aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" style="width: 95%;"></div>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- education and languages -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-8">
+			<div class="education">
+				<h2 class="white">Education</h2>					 
+						<h4 class="education-title "></h4>
+							<div class="education-school">
+								<h5>Self-study</h5><span></span>
+								<h5>2020 - Until now </h5>
+							</div>
+						  <p class="education-description"> 
+						   I am engaged in self-study in  Frontend 
+						</p>					 
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="languages">
+				<h2>Languages</h2>
+					<ul>						
+						<li>English / Russia</li>					
+					</ul>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- contact and experience -->
+<section class="container">
+	<div class="row">
+		<div class="col-md-4 col-sm-12">
+			<div class="contact">
+				<h2>Contact</h2>
+					<p><i class="fa fa-map-marker"></i> 8 Shmirova street, Vitebsk, Republic Belarus</p>
+					<p><i class="fa fa-phone"></i> 8 029 214-65-99</p>
+					<p><i class="fa fa-envelope"></i> rubchenko1994@gmail.com</p>
+					<!-- <p><i class="fa fa-globe"></i></p> -->
+			</div>
+		</div>
+		<div class="col-md-8 col-sm-12">
+			<div class="experience">
+				<h2 class="white">Experiences</h2>
+					<div class="experience-content">
+						<h4 class="experience-title accent">Website Development</h4>
+						<h5>Self-employed freelancer</h5><span></span>
+						<h5>2020 - Until now</h5>
+						<p class="education-description"> 
+						I am engaged in website layout and adaptivity
+						</p>
+					</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+ 
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright &copy; 2024 Artem Rubchenko</p>
+				<ul class="social-icons">
+					<li><a href="https://www.facebook.com/profile.php?id=100072577816599" class="fa fa-facebook"></a></li>          
+					<li><a href="https://x.com/94Blackwalker" class="fa fa-twitter"></a></li>					
+					<li><a href="https://github.com/RubchenkoArtem" class="fa fa-github"></a></li>					
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+ 
+
+</body>
+</html>
